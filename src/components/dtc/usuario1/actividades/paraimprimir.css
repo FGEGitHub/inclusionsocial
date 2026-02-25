@@ -1,0 +1,25 @@
+/* Dentro de la sección @media print */
+.print-container .separator-line {
+    height: 5px;
+    animation: colorTransition 5s infinite alternate; /* Duración de la animación */
+  }
+  
+  @keyframes colorTransition {
+    0% {
+      border-bottom: 5px solid blue; /* Azul */
+    }
+    25% {
+      border-bottom: 5px solid green; /* Verde */
+    }
+    50% {
+      border-bottom: 5px solid yellow; /* Amarillo */
+    }
+    75% {
+      border-bottom: 5px solid red; /* Rojo */
+    }
+    100% {
+      border-bottom: 5px solid blue; /* Vuelve a Azul */
+    }
+  
+  }
+  

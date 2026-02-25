@@ -1,0 +1,32 @@
+ .custom-calendar {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 1.2em;
+}
+
+.custom-calendar .react-calendar__tile {
+    background-color: #f0f8ff;
+    border-radius: 8px;
+}
+
+.custom-calendar .react-calendar__tile--now {
+    background-color: #ffe4e1;
+    border: 2px solid #ff69b4;
+    color: #ff69b4;
+}
+
+.custom-calendar .react-calendar__tile--active {
+    background-color: #ffb6c1;
+    border: 2px solid #ff69b4;
+    color: #ffffff;
+}
+
+.custom-calendar .react-calendar__tile--active:enabled:hover,
+.custom-calendar .react-calendar__tile--active:enabled:focus {
+    background-color: #ff69b4;
+}
+
+.birthday-icon {
+    color: #ff4500;
+    font-size: 1.5em;
+    text-align: center;
+}

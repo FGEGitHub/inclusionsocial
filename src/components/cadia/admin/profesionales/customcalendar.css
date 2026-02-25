@@ -1,0 +1,38 @@
+.custom-calendar {
+    width: 100%;
+    max-width: 1000px; /* Ancho máximo aumentado */
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .custom-calendar .react-calendar__tile {
+    height: 150px; /* Altura de cada celda aumentada */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.custom-calendar .react-calendar__tile--now {
+    background-color: #ffe4e1;
+    border: 2px solid #ff69b4;
+    color: #ff69b4;
+}
+.custom-calendar .react-calendar__month-view__days__day {
+    font-size: 1.2rem; /* Tamaño de la fuente aumentado */
+  }
+.custom-calendar .react-calendar__tile--active {
+    background-color: #ffb6c1;
+    border: 2px solid #ff69b4;
+    color: #ffffff;
+}
+
+.custom-calendar .react-calendar__tile--active:enabled:hover,
+.custom-calendar .react-calendar__tile--active:enabled:focus {
+    background-color: #ff69b4;
+}
+
+.birthday-icon {
+    color: #ff4500;
+    font-size: 1.5em;
+    text-align: center;
+}
