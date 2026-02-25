@@ -2,7 +2,7 @@ import axios from "axios"
 const url =import.meta.env.VITE_API_URL;
 
 
-const baseUrl = url.database+'dtc/'
+const baseUrl = url+'dtc/'
 //const  baseUrl ='http://localhost:4000/tareas/'
 
 

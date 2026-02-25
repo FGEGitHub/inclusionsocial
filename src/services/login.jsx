@@ -1,11 +1,11 @@
 import axios from "axios"
 const url =import.meta.env.VITE_API_URL;
-const baseUrl = url.database+'signin2/'
+const baseUrl = url+'signin2/'
 
 
 
 const login= async  (credentials) => {
- 
+ console.log(baseUrl)
   const {data } = await axios.post(baseUrl,credentials)
   if (data ==='Sin Exito'){
    alert(data)}

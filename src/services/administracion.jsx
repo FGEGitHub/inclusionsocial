@@ -3,7 +3,7 @@ const url =import.meta.env.VITE_API_URL;
 
 
 
-const baseUrl = url.database+'administracion/'
+const baseUrl = url+'administracion/'
 
 //const baseUrl = 'http://esme.cuquicalvano.com:4000/administracion/'
 //const  baseUrl ='http://localhost:4000/administracion/'
